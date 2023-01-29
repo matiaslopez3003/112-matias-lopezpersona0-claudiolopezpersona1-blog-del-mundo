@@ -1,9 +1,34 @@
+*{box-sizing: border-box;}
+
+/*  Clases generales */
+
 body { background-color: black;
  color: white;    }
 
  article{ background-color:rgb(44, 43, 43)
-    ;}
+    ; border-bottom: 1px ; border-color:white;
+padding: 1.5rem;}
 
+/* Terminan clases generales  */
+
+/* barra de navegación */
 .resaltado {color: yellow;}
 
+nav>ul>li{list-style: none;}
+
+nav>ul>li>a{text-decoration: none}
+
+/* fin barra de navegación */
+
+/* ilustraciones */
+.ilustacion{border: 4px #ffffff solid; display: inline;  } 
+/* fin ilustraciones */
+
+
 #titulodelblog {text-align: center;  font-size: 3rem;}
+
+  /* footer del blog */
+  #footer_blog{   margin: 2rem;}/* fin del footer */
+
+
+
